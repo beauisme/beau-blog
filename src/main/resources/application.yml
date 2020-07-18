@@ -1,15 +1,15 @@
 # 项目相关配置
 ruoyi:
   # 名称
-  name: RuoYi
+  name: beau-blog
   # 版本
   version: 2.3.0
   # 版权年份
-  copyrightYear: 2019
+  copyrightYear: 2020
   # 实例演示开关
   demoEnabled: true
   # 文件路径 示例（ Windows配置D:/ruoyi/uploadPath，Linux配置 /home/ruoyi/uploadPath）
-  profile: D:/ruoyi/uploadPath
+  profile: D:/beau-blog/uploadPath
   # 获取ip地址开关
   addressEnabled: false
 
@@ -119,7 +119,7 @@ xss:
 # 代码生成
 gen: 
   # 作者
-  author: ruoyi
+  author: beau
   # 默认生成包路径 system 需改成自己的模块名称 如 system monitor tool
   packageName: com.beau.project.system
   # 自动去除表前缀，默认是true
