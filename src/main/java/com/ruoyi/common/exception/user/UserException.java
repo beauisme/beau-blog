@@ -1,6 +1,6 @@
-package com.ruoyi.common.exception.user;
+package com.beau.common.exception.user;
 
-import com.ruoyi.common.exception.BaseException;
+import com.beau.common.exception.BaseException;
 
 /**
  * 用户信息异常类

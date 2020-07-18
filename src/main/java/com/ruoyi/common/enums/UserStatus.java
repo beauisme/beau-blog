@@ -1,4 +1,4 @@
-package com.ruoyi.common.enums;
+package com.beau.common.enums;
 
 /**
  * 用户状态

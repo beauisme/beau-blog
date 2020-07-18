@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.controller;
+package com.beau.project.system.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,16 +12,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.poi.ExcelUtil;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.project.system.domain.SysConfig;
-import com.ruoyi.project.system.service.ISysConfigService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.poi.ExcelUtil;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.project.system.domain.SysConfig;
+import com.beau.project.system.service.ISysConfigService;
 
 /**
  * 参数配置 信息操作处理

@@ -1,6 +1,6 @@
-package com.ruoyi.framework.web.page;
+package com.beau.framework.web.page;
 
-import com.ruoyi.common.utils.ServletUtils;
+import com.beau.common.utils.ServletUtils;
 
 /**
  * 表格数据处理

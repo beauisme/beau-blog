@@ -1,7 +1,7 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
 import java.util.List;
-import com.ruoyi.project.system.domain.SysConfig;
+import com.beau.project.system.domain.SysConfig;
 
 /**
  * 参数配置 服务层

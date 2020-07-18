@@ -1,9 +1,9 @@
-package com.ruoyi.project.monitor.service;
+package com.beau.project.monitor.service;
 
 import java.util.List;
 import org.quartz.SchedulerException;
-import com.ruoyi.common.exception.job.TaskException;
-import com.ruoyi.project.monitor.domain.SysJob;
+import com.beau.common.exception.job.TaskException;
+import com.beau.project.monitor.domain.SysJob;
 
 /**
  * 定时任务调度信息信息 服务层

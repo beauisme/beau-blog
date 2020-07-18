@@ -1,12 +1,12 @@
-package com.ruoyi.project.system.domain;
+package com.beau.project.system.domain;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
-import com.ruoyi.framework.aspectj.lang.annotation.Excel;
-import com.ruoyi.framework.aspectj.lang.annotation.Excel.ColumnType;
-import com.ruoyi.framework.web.domain.BaseEntity;
+import com.beau.framework.aspectj.lang.annotation.Excel;
+import com.beau.framework.aspectj.lang.annotation.Excel.ColumnType;
+import com.beau.framework.web.domain.BaseEntity;
 
 /**
  * 岗位表 sys_post

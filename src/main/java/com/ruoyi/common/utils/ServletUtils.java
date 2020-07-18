@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.beau.common.utils;
 
 import java.io.IOException;
 import javax.servlet.http.HttpServletRequest;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-import com.ruoyi.common.core.text.Convert;
+import com.beau.common.core.text.Convert;
 
 /**
  * 客户端工具类

@@ -1,4 +1,4 @@
-package com.ruoyi.framework.web.exception;
+package com.beau.framework.web.exception;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,12 +10,12 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
-import com.ruoyi.common.constant.HttpStatus;
-import com.ruoyi.common.exception.BaseException;
-import com.ruoyi.common.exception.CustomException;
-import com.ruoyi.common.exception.DemoModeException;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.web.domain.AjaxResult;
+import com.beau.common.constant.HttpStatus;
+import com.beau.common.exception.BaseException;
+import com.beau.common.exception.CustomException;
+import com.beau.common.exception.DemoModeException;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.web.domain.AjaxResult;
 
 /**
  * 全局异常处理器

@@ -1,4 +1,4 @@
-package com.ruoyi.project.monitor.service.impl;
+package com.beau.project.monitor.service.impl;
 
 import java.util.List;
 import javax.annotation.PostConstruct;
@@ -9,13 +9,13 @@ import org.quartz.SchedulerException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.ruoyi.common.constant.ScheduleConstants;
-import com.ruoyi.common.exception.job.TaskException;
-import com.ruoyi.common.utils.job.CronUtils;
-import com.ruoyi.common.utils.job.ScheduleUtils;
-import com.ruoyi.project.monitor.domain.SysJob;
-import com.ruoyi.project.monitor.mapper.SysJobMapper;
-import com.ruoyi.project.monitor.service.ISysJobService;
+import com.beau.common.constant.ScheduleConstants;
+import com.beau.common.exception.job.TaskException;
+import com.beau.common.utils.job.CronUtils;
+import com.beau.common.utils.job.ScheduleUtils;
+import com.beau.project.monitor.domain.SysJob;
+import com.beau.project.monitor.mapper.SysJobMapper;
+import com.beau.project.monitor.service.ISysJobService;
 
 /**
  * 定时任务调度信息 服务层

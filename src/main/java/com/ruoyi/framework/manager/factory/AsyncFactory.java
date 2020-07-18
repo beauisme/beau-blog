@@ -1,18 +1,18 @@
-package com.ruoyi.framework.manager.factory;
+package com.beau.framework.manager.factory;
 
 import java.util.TimerTask;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.utils.LogUtils;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.ip.AddressUtils;
-import com.ruoyi.common.utils.ip.IpUtils;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.project.monitor.domain.SysLogininfor;
-import com.ruoyi.project.monitor.domain.SysOperLog;
-import com.ruoyi.project.monitor.service.ISysLogininforService;
-import com.ruoyi.project.monitor.service.ISysOperLogService;
+import com.beau.common.constant.Constants;
+import com.beau.common.utils.LogUtils;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.ip.AddressUtils;
+import com.beau.common.utils.ip.IpUtils;
+import com.beau.common.utils.spring.SpringUtils;
+import com.beau.project.monitor.domain.SysLogininfor;
+import com.beau.project.monitor.domain.SysOperLog;
+import com.beau.project.monitor.service.ISysLogininforService;
+import com.beau.project.monitor.service.ISysOperLogService;
 import eu.bitwalker.useragentutils.UserAgent;
 
 /**

@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.controller;
+package com.beau.project.system.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -14,23 +14,23 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.poi.ExcelUtil;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.security.service.TokenService;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.project.system.domain.SysRole;
-import com.ruoyi.project.system.domain.SysUser;
-import com.ruoyi.project.system.service.ISysPostService;
-import com.ruoyi.project.system.service.ISysRoleService;
-import com.ruoyi.project.system.service.ISysUserService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.poi.ExcelUtil;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.security.service.TokenService;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.project.system.domain.SysRole;
+import com.beau.project.system.domain.SysUser;
+import com.beau.project.system.service.ISysPostService;
+import com.beau.project.system.service.ISysRoleService;
+import com.beau.project.system.service.ISysUserService;
 
 /**
  * 用户信息

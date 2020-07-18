@@ -1,7 +1,7 @@
-package com.ruoyi.framework.task;
+package com.beau.framework.task;
 
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.utils.StringUtils;
+import com.beau.common.utils.StringUtils;
 
 /**
  * 定时任务调度测试

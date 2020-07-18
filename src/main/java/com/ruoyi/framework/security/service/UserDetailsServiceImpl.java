@@ -1,4 +1,4 @@
-package com.ruoyi.framework.security.service;
+package com.beau.framework.security.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,12 +7,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.enums.UserStatus;
-import com.ruoyi.common.exception.BaseException;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.project.system.domain.SysUser;
-import com.ruoyi.project.system.service.ISysUserService;
+import com.beau.common.enums.UserStatus;
+import com.beau.common.exception.BaseException;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.security.LoginUser;
+import com.beau.project.system.domain.SysUser;
+import com.beau.project.system.service.ISysUserService;
 
 /**
  * 用户验证处理

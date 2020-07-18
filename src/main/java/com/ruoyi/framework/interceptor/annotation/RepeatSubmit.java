@@ -1,4 +1,4 @@
-package com.ruoyi.framework.interceptor.annotation;
+package com.beau.framework.interceptor.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

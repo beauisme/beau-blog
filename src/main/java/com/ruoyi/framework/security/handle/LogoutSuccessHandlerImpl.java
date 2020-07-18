@@ -1,4 +1,4 @@
-package com.ruoyi.framework.security.handle;
+package com.beau.framework.security.handle;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -9,15 +9,15 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;
 import com.alibaba.fastjson.JSON;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.constant.HttpStatus;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.manager.AsyncManager;
-import com.ruoyi.framework.manager.factory.AsyncFactory;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.security.service.TokenService;
-import com.ruoyi.framework.web.domain.AjaxResult;
+import com.beau.common.constant.Constants;
+import com.beau.common.constant.HttpStatus;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.manager.AsyncManager;
+import com.beau.framework.manager.factory.AsyncFactory;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.security.service.TokenService;
+import com.beau.framework.web.domain.AjaxResult;
 
 /**
  * 自定义退出处理类 返回成功

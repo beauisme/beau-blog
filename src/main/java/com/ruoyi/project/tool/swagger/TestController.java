@@ -1,4 +1,4 @@
-package com.ruoyi.project.tool.swagger;
+package com.beau.project.tool.swagger;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiModel;

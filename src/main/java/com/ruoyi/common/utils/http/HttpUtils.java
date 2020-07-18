@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.http;
+package com.beau.common.utils.http;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -18,7 +18,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.ruoyi.common.constant.Constants;
+import com.beau.common.constant.Constants;
 
 /**
  * 通用http发送方法

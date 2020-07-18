@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.controller;
+package com.beau.project.system.controller;
 
 import java.io.IOException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,18 +10,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.file.FileUploadUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.config.RuoYiConfig;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.security.service.TokenService;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.project.system.domain.SysUser;
-import com.ruoyi.project.system.service.ISysUserService;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.file.FileUploadUtils;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.config.RuoYiConfig;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.security.service.TokenService;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.project.system.domain.SysUser;
+import com.beau.project.system.service.ISysUserService;
 
 /**
  * 个人信息 业务处理

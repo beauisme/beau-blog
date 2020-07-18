@@ -1,4 +1,4 @@
-package com.ruoyi.framework.aspectj.lang.annotation;
+package com.beau.framework.aspectj.lang.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

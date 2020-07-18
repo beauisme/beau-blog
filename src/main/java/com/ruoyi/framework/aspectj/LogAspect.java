@@ -1,4 +1,4 @@
-package com.ruoyi.framework.aspectj;
+package com.beau.framework.aspectj;
 
 import java.lang.reflect.Method;
 import java.util.Map;
@@ -17,18 +17,18 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.HandlerMapping;
 import com.alibaba.fastjson.JSON;
-import com.ruoyi.common.enums.HttpMethod;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.ip.IpUtils;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessStatus;
-import com.ruoyi.framework.manager.AsyncManager;
-import com.ruoyi.framework.manager.factory.AsyncFactory;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.security.service.TokenService;
-import com.ruoyi.project.monitor.domain.SysOperLog;
+import com.beau.common.enums.HttpMethod;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.ip.IpUtils;
+import com.beau.common.utils.spring.SpringUtils;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessStatus;
+import com.beau.framework.manager.AsyncManager;
+import com.beau.framework.manager.factory.AsyncFactory;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.security.service.TokenService;
+import com.beau.project.monitor.domain.SysOperLog;
 
 /**
  * 操作日志记录处理
@@ -42,7 +42,7 @@ public class LogAspect
     private static final Logger log = LoggerFactory.getLogger(LogAspect.class);
 
     // 配置织入点
-    @Pointcut("@annotation(com.ruoyi.framework.aspectj.lang.annotation.Log)")
+    @Pointcut("@annotation(com.beau.framework.aspectj.lang.annotation.Log)")
     public void logPointCut()
     {
     }

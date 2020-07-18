@@ -1,7 +1,7 @@
-package com.ruoyi.project.tool.gen.service;
+package com.beau.project.tool.gen.service;
 
 import java.util.List;
-import com.ruoyi.project.tool.gen.domain.GenTableColumn;
+import com.beau.project.tool.gen.domain.GenTableColumn;
 
 /**
  * 业务字段 服务层

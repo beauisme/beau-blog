@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.file;
+package com.beau.common.utils.file;
 
 /**
  * 媒体类型工具类

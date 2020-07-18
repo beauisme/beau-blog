@@ -1,8 +1,8 @@
-package com.ruoyi.project.system.mapper;
+package com.beau.project.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import com.ruoyi.project.system.domain.SysDictData;
+import com.beau.project.system.domain.SysDictData;
 
 /**
  * 字典表 数据层

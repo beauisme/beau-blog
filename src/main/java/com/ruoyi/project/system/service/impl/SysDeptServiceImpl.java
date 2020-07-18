@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -6,14 +6,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.exception.CustomException;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.DataScope;
-import com.ruoyi.framework.web.domain.TreeSelect;
-import com.ruoyi.project.system.domain.SysDept;
-import com.ruoyi.project.system.mapper.SysDeptMapper;
-import com.ruoyi.project.system.service.ISysDeptService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.exception.CustomException;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.aspectj.lang.annotation.DataScope;
+import com.beau.framework.web.domain.TreeSelect;
+import com.beau.project.system.domain.SysDept;
+import com.beau.project.system.mapper.SysDeptMapper;
+import com.beau.project.system.service.ISysDeptService;
 
 /**
  * 部门管理 服务实现

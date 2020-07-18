@@ -1,10 +1,10 @@
-package com.ruoyi.common.utils.ip;
+package com.beau.common.utils.ip;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import javax.servlet.http.HttpServletRequest;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.html.EscapeUtil;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.html.EscapeUtil;
 
 /**
  * 获取IP方法

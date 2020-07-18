@@ -1,4 +1,4 @@
-package com.ruoyi.framework.redis;
+package com.beau.framework.redis;
 
 import java.util.Collection;
 import java.util.List;

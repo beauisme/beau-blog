@@ -1,4 +1,4 @@
-package com.ruoyi.common.exception.file;
+package com.beau.common.exception.file;
 
 import java.util.Arrays;
 import org.apache.commons.fileupload.FileUploadException;

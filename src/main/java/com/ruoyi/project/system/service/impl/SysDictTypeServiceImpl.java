@@ -1,19 +1,19 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import java.util.List;
 import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.exception.CustomException;
-import com.ruoyi.common.utils.DictUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.project.system.domain.SysDictData;
-import com.ruoyi.project.system.domain.SysDictType;
-import com.ruoyi.project.system.mapper.SysDictDataMapper;
-import com.ruoyi.project.system.mapper.SysDictTypeMapper;
-import com.ruoyi.project.system.service.ISysDictTypeService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.exception.CustomException;
+import com.beau.common.utils.DictUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.project.system.domain.SysDictData;
+import com.beau.project.system.domain.SysDictType;
+import com.beau.project.system.mapper.SysDictDataMapper;
+import com.beau.project.system.mapper.SysDictTypeMapper;
+import com.beau.project.system.service.ISysDictTypeService;
 
 /**
  * 字典 业务层处理

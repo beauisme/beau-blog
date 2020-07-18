@@ -1,8 +1,8 @@
-package com.ruoyi.project.system.mapper;
+package com.beau.project.system.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import com.ruoyi.project.system.domain.SysDept;
+import com.beau.project.system.domain.SysDept;
 
 /**
  * 部门管理 数据层

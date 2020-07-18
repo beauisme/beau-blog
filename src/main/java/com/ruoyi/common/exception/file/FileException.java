@@ -1,6 +1,6 @@
-package com.ruoyi.common.exception.file;
+package com.beau.common.exception.file;
 
-import com.ruoyi.common.exception.BaseException;
+import com.beau.common.exception.BaseException;
 
 /**
  * 文件信息异常类

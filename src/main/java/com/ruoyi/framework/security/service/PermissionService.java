@@ -1,13 +1,13 @@
-package com.ruoyi.framework.security.service;
+package com.beau.framework.security.service;
 
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.project.system.domain.SysRole;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.security.LoginUser;
+import com.beau.project.system.domain.SysRole;
 
 /**
  * RuoYi首创 自定义权限实现，ss取自SpringSecurity首字母

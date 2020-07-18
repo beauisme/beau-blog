@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,17 +10,17 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.web.domain.TreeSelect;
-import com.ruoyi.project.system.domain.SysMenu;
-import com.ruoyi.project.system.domain.SysUser;
-import com.ruoyi.project.system.domain.vo.MetaVo;
-import com.ruoyi.project.system.domain.vo.RouterVo;
-import com.ruoyi.project.system.mapper.SysMenuMapper;
-import com.ruoyi.project.system.mapper.SysRoleMenuMapper;
-import com.ruoyi.project.system.service.ISysMenuService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.web.domain.TreeSelect;
+import com.beau.project.system.domain.SysMenu;
+import com.beau.project.system.domain.SysUser;
+import com.beau.project.system.domain.vo.MetaVo;
+import com.beau.project.system.domain.vo.RouterVo;
+import com.beau.project.system.mapper.SysMenuMapper;
+import com.beau.project.system.mapper.SysRoleMenuMapper;
+import com.beau.project.system.service.ISysMenuService;
 
 /**
  * 菜单 业务层处理

@@ -1,7 +1,7 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
 import java.util.List;
-import com.ruoyi.project.system.domain.SysDictData;
+import com.beau.project.system.domain.SysDictData;
 
 /**
  * 字典 业务层

@@ -1,4 +1,4 @@
-package com.ruoyi.framework.aspectj.lang.enums;
+package com.beau.framework.aspectj.lang.enums;
 
 /**
  * 业务操作类型

@@ -1,10 +1,10 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
 import java.util.List;
 import java.util.Set;
-import com.ruoyi.framework.web.domain.TreeSelect;
-import com.ruoyi.project.system.domain.SysMenu;
-import com.ruoyi.project.system.domain.vo.RouterVo;
+import com.beau.framework.web.domain.TreeSelect;
+import com.beau.project.system.domain.SysMenu;
+import com.beau.project.system.domain.vo.RouterVo;
 
 /**
  * 菜单 业务层

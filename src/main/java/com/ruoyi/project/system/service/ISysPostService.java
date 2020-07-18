@@ -1,7 +1,7 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
 import java.util.List;
-import com.ruoyi.project.system.domain.SysPost;
+import com.beau.project.system.domain.SysPost;
 
 /**
  * 岗位信息 服务层

@@ -1,4 +1,4 @@
-package com.ruoyi.framework.config;
+package com.beau.framework.config;
 
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;

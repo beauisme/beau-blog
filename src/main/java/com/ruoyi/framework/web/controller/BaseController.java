@@ -1,4 +1,4 @@
-package com.ruoyi.framework.web.controller;
+package com.beau.framework.web.controller;
 
 import java.beans.PropertyEditorSupport;
 import java.util.Date;
@@ -9,14 +9,14 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.ruoyi.common.constant.HttpStatus;
-import com.ruoyi.common.utils.DateUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.sql.SqlUtil;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.PageDomain;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.framework.web.page.TableSupport;
+import com.beau.common.constant.HttpStatus;
+import com.beau.common.utils.DateUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.sql.SqlUtil;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.PageDomain;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.framework.web.page.TableSupport;
 
 /**
  * web层通用数据处理

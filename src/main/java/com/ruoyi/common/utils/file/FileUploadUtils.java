@@ -1,17 +1,17 @@
-package com.ruoyi.common.utils.file;
+package com.beau.common.utils.file;
 
 import java.io.File;
 import java.io.IOException;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.web.multipart.MultipartFile;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.exception.file.FileNameLengthLimitExceededException;
-import com.ruoyi.common.exception.file.FileSizeLimitExceededException;
-import com.ruoyi.common.exception.file.InvalidExtensionException;
-import com.ruoyi.common.utils.DateUtils;
-import com.ruoyi.common.utils.IdUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.config.RuoYiConfig;
+import com.beau.common.constant.Constants;
+import com.beau.common.exception.file.FileNameLengthLimitExceededException;
+import com.beau.common.exception.file.FileSizeLimitExceededException;
+import com.beau.common.exception.file.InvalidExtensionException;
+import com.beau.common.utils.DateUtils;
+import com.beau.common.utils.IdUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.config.RuoYiConfig;
 
 /**
  * 文件上传工具类

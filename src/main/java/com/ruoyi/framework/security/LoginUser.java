@@ -1,11 +1,11 @@
-package com.ruoyi.framework.security;
+package com.beau.framework.security;
 
 import java.util.Collection;
 import java.util.Set;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.ruoyi.project.system.domain.SysUser;
+import com.beau.project.system.domain.SysUser;
 
 /**
  * 登录用户身份权限

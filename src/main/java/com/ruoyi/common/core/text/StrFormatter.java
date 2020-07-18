@@ -1,6 +1,6 @@
-package com.ruoyi.common.core.text;
+package com.beau.common.core.text;
 
-import com.ruoyi.common.utils.StringUtils;
+import com.beau.common.utils.StringUtils;
 
 /**
  * 字符串格式化

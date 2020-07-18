@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.domain;
+package com.beau.project.system.domain;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;

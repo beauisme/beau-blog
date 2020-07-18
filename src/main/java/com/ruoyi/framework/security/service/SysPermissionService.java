@@ -1,12 +1,12 @@
-package com.ruoyi.framework.security.service;
+package com.beau.framework.security.service;
 
 import java.util.HashSet;
 import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import com.ruoyi.project.system.domain.SysUser;
-import com.ruoyi.project.system.service.ISysMenuService;
-import com.ruoyi.project.system.service.ISysRoleService;
+import com.beau.project.system.domain.SysUser;
+import com.beau.project.system.service.ISysMenuService;
+import com.beau.project.system.service.ISysRoleService;
 
 /**
  * 用户权限处理

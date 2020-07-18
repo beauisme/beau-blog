@@ -1,4 +1,4 @@
-package com.ruoyi.framework.security.service;
+package com.beau.framework.security.service;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,14 +7,14 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.utils.IdUtils;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.ip.AddressUtils;
-import com.ruoyi.common.utils.ip.IpUtils;
-import com.ruoyi.framework.redis.RedisCache;
-import com.ruoyi.framework.security.LoginUser;
+import com.beau.common.constant.Constants;
+import com.beau.common.utils.IdUtils;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.ip.AddressUtils;
+import com.beau.common.utils.ip.IpUtils;
+import com.beau.framework.redis.RedisCache;
+import com.beau.framework.security.LoginUser;
 import eu.bitwalker.useragentutils.UserAgent;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

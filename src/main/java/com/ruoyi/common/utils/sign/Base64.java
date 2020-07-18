@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.sign;
+package com.beau.common.utils.sign;
 
 /**
  * Base64工具类

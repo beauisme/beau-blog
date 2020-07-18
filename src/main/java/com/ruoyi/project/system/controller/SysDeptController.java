@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.controller;
+package com.beau.project.system.controller;
 
 import java.util.Iterator;
 import java.util.List;
@@ -14,15 +14,15 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.project.system.domain.SysDept;
-import com.ruoyi.project.system.service.ISysDeptService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.project.system.domain.SysDept;
+import com.beau.project.system.service.ISysDeptService;
 
 /**
  * 部门信息

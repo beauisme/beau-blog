@@ -1,8 +1,8 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
 import java.util.List;
-import com.ruoyi.framework.web.domain.TreeSelect;
-import com.ruoyi.project.system.domain.SysDept;
+import com.beau.framework.web.domain.TreeSelect;
+import com.beau.project.system.domain.SysDept;
 
 /**
  * 部门管理 服务层

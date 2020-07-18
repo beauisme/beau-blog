@@ -1,6 +1,6 @@
-package com.ruoyi.framework.web.domain.server;
+package com.beau.framework.web.domain.server;
 
-import com.ruoyi.common.utils.Arith;
+import com.beau.common.utils.Arith;
 
 /**
  * 內存相关信息

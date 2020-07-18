@@ -1,4 +1,4 @@
-package com.ruoyi.common.exception.user;
+package com.beau.common.exception.user;
 
 /**
  * 用户密码不正确或不符合规范异常类

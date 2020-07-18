@@ -1,4 +1,4 @@
-package com.ruoyi.framework.config;
+package com.beau.framework.config;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -19,10 +19,10 @@ import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties;
 import com.alibaba.druid.util.Utils;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.framework.aspectj.lang.enums.DataSourceType;
-import com.ruoyi.framework.config.properties.DruidProperties;
-import com.ruoyi.framework.datasource.DynamicDataSource;
+import com.beau.common.utils.spring.SpringUtils;
+import com.beau.framework.aspectj.lang.enums.DataSourceType;
+import com.beau.framework.config.properties.DruidProperties;
+import com.beau.framework.datasource.DynamicDataSource;
 
 /**
  * druid 配置多数据源

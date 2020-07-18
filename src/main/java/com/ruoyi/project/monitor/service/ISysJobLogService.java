@@ -1,7 +1,7 @@
-package com.ruoyi.project.monitor.service;
+package com.beau.project.monitor.service;
 
 import java.util.List;
-import com.ruoyi.project.monitor.domain.SysJobLog;
+import com.beau.project.monitor.domain.SysJobLog;
 
 /**
  * 定时任务调度日志信息信息 服务层

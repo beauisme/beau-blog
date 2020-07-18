@@ -1,8 +1,8 @@
-package com.ruoyi.project.tool.gen.util;
+package com.beau.project.tool.gen.util;
 
 import java.util.Properties;
 import org.apache.velocity.app.Velocity;
-import com.ruoyi.common.constant.Constants;
+import com.beau.common.constant.Constants;
 
 /**
  * VelocityEngine工厂

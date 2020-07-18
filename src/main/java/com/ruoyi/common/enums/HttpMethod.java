@@ -1,4 +1,4 @@
-package com.ruoyi.common.enums;
+package com.beau.common.enums;
 
 import java.util.HashMap;
 import java.util.Map;

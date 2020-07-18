@@ -1,6 +1,6 @@
-package com.ruoyi.common.utils.sql;
+package com.beau.common.utils.sql;
 
-import com.ruoyi.common.utils.StringUtils;
+import com.beau.common.utils.StringUtils;
 
 /**
  * sql操作工具类

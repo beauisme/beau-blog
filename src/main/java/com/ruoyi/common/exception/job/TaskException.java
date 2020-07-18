@@ -1,4 +1,4 @@
-package com.ruoyi.common.exception.job;
+package com.beau.common.exception.job;
 
 /**
  * 计划策略异常

@@ -1,8 +1,8 @@
-package com.ruoyi.framework.web.domain;
+package com.beau.framework.web.domain;
 
 import java.util.HashMap;
-import com.ruoyi.common.constant.HttpStatus;
-import com.ruoyi.common.utils.StringUtils;
+import com.beau.common.constant.HttpStatus;
+import com.beau.common.utils.StringUtils;
 
 /**
  * 操作消息提醒

@@ -1,8 +1,8 @@
-package com.ruoyi.common.utils.job;
+package com.beau.common.utils.job;
 
 import org.quartz.DisallowConcurrentExecution;
 import org.quartz.JobExecutionContext;
-import com.ruoyi.project.monitor.domain.SysJob;
+import com.beau.project.monitor.domain.SysJob;
 
 /**
  * 定时任务处理（禁止并发执行）

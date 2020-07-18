@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.job;
+package com.beau.common.utils.job;
 
 import org.quartz.CronScheduleBuilder;
 import org.quartz.CronTrigger;
@@ -10,10 +10,10 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerException;
 import org.quartz.TriggerBuilder;
 import org.quartz.TriggerKey;
-import com.ruoyi.common.constant.ScheduleConstants;
-import com.ruoyi.common.exception.job.TaskException;
-import com.ruoyi.common.exception.job.TaskException.Code;
-import com.ruoyi.project.monitor.domain.SysJob;
+import com.beau.common.constant.ScheduleConstants;
+import com.beau.common.exception.job.TaskException;
+import com.beau.common.exception.job.TaskException.Code;
+import com.beau.project.monitor.domain.SysJob;
 
 /**
  * 定时任务工具类

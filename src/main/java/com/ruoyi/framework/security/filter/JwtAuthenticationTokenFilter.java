@@ -1,4 +1,4 @@
-package com.ruoyi.framework.security.filter;
+package com.beau.framework.security.filter;
 
 import java.io.IOException;
 import javax.servlet.FilterChain;
@@ -11,10 +11,10 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.security.service.TokenService;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.security.service.TokenService;
 
 /**
  * token过滤器 验证token有效性

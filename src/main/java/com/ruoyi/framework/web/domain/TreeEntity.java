@@ -1,4 +1,4 @@
-package com.ruoyi.framework.web.domain;
+package com.beau.framework.web.domain;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
-package com.ruoyi.project.tool.gen.mapper;
+package com.beau.project.tool.gen.mapper;
 
 import java.util.List;
-import com.ruoyi.project.tool.gen.domain.GenTable;
+import com.beau.project.tool.gen.domain.GenTable;
 
 /**
  * 业务 数据层

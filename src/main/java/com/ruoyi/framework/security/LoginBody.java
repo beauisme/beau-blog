@@ -1,4 +1,4 @@
-package com.ruoyi.framework.security;
+package com.beau.framework.security;
 
 /**
  * 用户登录对象

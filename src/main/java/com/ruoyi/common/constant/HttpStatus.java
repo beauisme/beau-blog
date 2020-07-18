@@ -1,4 +1,4 @@
-package com.ruoyi.common.constant;
+package com.beau.common.constant;
 
 /**
  * 返回状态码

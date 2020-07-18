@@ -1,7 +1,7 @@
-package com.ruoyi.common.exception;
+package com.beau.common.exception;
 
-import com.ruoyi.common.utils.MessageUtils;
-import com.ruoyi.common.utils.StringUtils;
+import com.beau.common.utils.MessageUtils;
+import com.beau.common.utils.StringUtils;
 
 /**
  * 基础异常

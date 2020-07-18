@@ -1,4 +1,4 @@
-package com.ruoyi.framework.security.service;
+package com.beau.framework.security.service;
 
 import javax.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,16 +7,16 @@ import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.exception.CustomException;
-import com.ruoyi.common.exception.user.CaptchaException;
-import com.ruoyi.common.exception.user.CaptchaExpireException;
-import com.ruoyi.common.exception.user.UserPasswordNotMatchException;
-import com.ruoyi.common.utils.MessageUtils;
-import com.ruoyi.framework.manager.AsyncManager;
-import com.ruoyi.framework.manager.factory.AsyncFactory;
-import com.ruoyi.framework.redis.RedisCache;
-import com.ruoyi.framework.security.LoginUser;
+import com.beau.common.constant.Constants;
+import com.beau.common.exception.CustomException;
+import com.beau.common.exception.user.CaptchaException;
+import com.beau.common.exception.user.CaptchaExpireException;
+import com.beau.common.exception.user.UserPasswordNotMatchException;
+import com.beau.common.utils.MessageUtils;
+import com.beau.framework.manager.AsyncManager;
+import com.beau.framework.manager.factory.AsyncFactory;
+import com.beau.framework.redis.RedisCache;
+import com.beau.framework.security.LoginUser;
 
 /**
  * 登录校验方法

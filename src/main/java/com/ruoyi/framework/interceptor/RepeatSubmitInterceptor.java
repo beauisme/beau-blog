@@ -1,4 +1,4 @@
-package com.ruoyi.framework.interceptor;
+package com.beau.framework.interceptor;
 
 import java.lang.reflect.Method;
 import javax.servlet.http.HttpServletRequest;
@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import com.alibaba.fastjson.JSONObject;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.framework.interceptor.annotation.RepeatSubmit;
-import com.ruoyi.framework.web.domain.AjaxResult;
+import com.beau.common.utils.ServletUtils;
+import com.beau.framework.interceptor.annotation.RepeatSubmit;
+import com.beau.framework.web.domain.AjaxResult;
 
 /**
  * 防止重复提交拦截器

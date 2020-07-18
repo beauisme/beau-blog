@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.beau.common.utils;
 
 import java.util.concurrent.CancellationException;
 import java.util.concurrent.ExecutionException;

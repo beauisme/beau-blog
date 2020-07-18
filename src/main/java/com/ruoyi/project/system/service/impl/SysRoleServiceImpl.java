@@ -1,4 +1,4 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,19 +8,19 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.exception.CustomException;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.DataScope;
-import com.ruoyi.project.system.domain.SysRole;
-import com.ruoyi.project.system.domain.SysRoleDept;
-import com.ruoyi.project.system.domain.SysRoleMenu;
-import com.ruoyi.project.system.mapper.SysRoleDeptMapper;
-import com.ruoyi.project.system.mapper.SysRoleMapper;
-import com.ruoyi.project.system.mapper.SysRoleMenuMapper;
-import com.ruoyi.project.system.mapper.SysUserRoleMapper;
-import com.ruoyi.project.system.service.ISysRoleService;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.exception.CustomException;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.spring.SpringUtils;
+import com.beau.framework.aspectj.lang.annotation.DataScope;
+import com.beau.project.system.domain.SysRole;
+import com.beau.project.system.domain.SysRoleDept;
+import com.beau.project.system.domain.SysRoleMenu;
+import com.beau.project.system.mapper.SysRoleDeptMapper;
+import com.beau.project.system.mapper.SysRoleMapper;
+import com.beau.project.system.mapper.SysRoleMenuMapper;
+import com.beau.project.system.mapper.SysUserRoleMapper;
+import com.beau.project.system.service.ISysRoleService;
 
 /**
  * 角色 业务层处理

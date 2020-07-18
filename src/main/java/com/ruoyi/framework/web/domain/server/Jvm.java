@@ -1,8 +1,8 @@
-package com.ruoyi.framework.web.domain.server;
+package com.beau.framework.web.domain.server;
 
 import java.lang.management.ManagementFactory;
-import com.ruoyi.common.utils.Arith;
-import com.ruoyi.common.utils.DateUtils;
+import com.beau.common.utils.Arith;
+import com.beau.common.utils.DateUtils;
 
 /**
  * JVM相关信息

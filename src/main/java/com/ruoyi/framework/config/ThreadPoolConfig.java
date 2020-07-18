@@ -1,4 +1,4 @@
-package com.ruoyi.framework.config;
+package com.beau.framework.config;
 
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
@@ -7,7 +7,7 @@ import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
-import com.ruoyi.common.utils.Threads;
+import com.beau.common.utils.Threads;
 
 /**
  * 线程池配置

@@ -1,15 +1,15 @@
-package com.ruoyi.project.tool.gen.util;
+package com.beau.project.tool.gen.util;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import org.apache.velocity.VelocityContext;
 import com.alibaba.fastjson.JSONObject;
-import com.ruoyi.common.constant.GenConstants;
-import com.ruoyi.common.utils.DateUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.project.tool.gen.domain.GenTable;
-import com.ruoyi.project.tool.gen.domain.GenTableColumn;
+import com.beau.common.constant.GenConstants;
+import com.beau.common.utils.DateUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.project.tool.gen.domain.GenTable;
+import com.beau.project.tool.gen.domain.GenTableColumn;
 
 public class VelocityUtils
 {

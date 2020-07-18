@@ -1,4 +1,4 @@
-package com.ruoyi.framework.aspectj;
+package com.beau.framework.aspectj;
 
 import java.lang.reflect.Method;
 import org.aspectj.lang.JoinPoint;
@@ -8,15 +8,15 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.stereotype.Component;
-import com.ruoyi.common.utils.ServletUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.DataScope;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.security.service.TokenService;
-import com.ruoyi.framework.web.domain.BaseEntity;
-import com.ruoyi.project.system.domain.SysRole;
-import com.ruoyi.project.system.domain.SysUser;
+import com.beau.common.utils.ServletUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.spring.SpringUtils;
+import com.beau.framework.aspectj.lang.annotation.DataScope;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.security.service.TokenService;
+import com.beau.framework.web.domain.BaseEntity;
+import com.beau.project.system.domain.SysRole;
+import com.beau.project.system.domain.SysUser;
 
 /**
  * 数据过滤处理
@@ -58,7 +58,7 @@ public class DataScopeAspect
     public static final String DATA_SCOPE = "dataScope";
 
     // 配置织入点
-    @Pointcut("@annotation(com.ruoyi.framework.aspectj.lang.annotation.DataScope)")
+    @Pointcut("@annotation(com.beau.framework.aspectj.lang.annotation.DataScope)")
     public void dataScopePointCut()
     {
     }

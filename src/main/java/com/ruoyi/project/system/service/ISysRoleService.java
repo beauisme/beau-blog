@@ -1,8 +1,8 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
 import java.util.List;
 import java.util.Set;
-import com.ruoyi.project.system.domain.SysRole;
+import com.beau.project.system.domain.SysRole;
 
 /**
  * 角色业务层

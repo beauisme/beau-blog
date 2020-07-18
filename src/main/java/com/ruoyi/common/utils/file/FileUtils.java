@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.file;
+package com.beau.common.utils.file;
 
 import java.io.File;
 import java.io.FileInputStream;

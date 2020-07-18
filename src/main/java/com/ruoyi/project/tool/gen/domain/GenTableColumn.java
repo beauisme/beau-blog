@@ -1,8 +1,8 @@
-package com.ruoyi.project.tool.gen.domain;
+package com.beau.project.tool.gen.domain;
 
 import javax.validation.constraints.NotBlank;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.web.domain.BaseEntity;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.web.domain.BaseEntity;
 
 /**
  * 代码生成业务字段表 gen_table_column

@@ -1,11 +1,11 @@
-package com.ruoyi.project.tool.gen.service;
+package com.beau.project.tool.gen.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.core.text.Convert;
-import com.ruoyi.project.tool.gen.domain.GenTableColumn;
-import com.ruoyi.project.tool.gen.mapper.GenTableColumnMapper;
+import com.beau.common.core.text.Convert;
+import com.beau.project.tool.gen.domain.GenTableColumn;
+import com.beau.project.tool.gen.mapper.GenTableColumnMapper;
 
 /**
  * 业务字段 服务层实现

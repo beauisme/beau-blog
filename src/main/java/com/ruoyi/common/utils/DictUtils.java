@@ -1,11 +1,11 @@
-package com.ruoyi.common.utils;
+package com.beau.common.utils;
 
 import java.util.Collection;
 import java.util.List;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.utils.spring.SpringUtils;
-import com.ruoyi.framework.redis.RedisCache;
-import com.ruoyi.project.system.domain.SysDictData;
+import com.beau.common.constant.Constants;
+import com.beau.common.utils.spring.SpringUtils;
+import com.beau.framework.redis.RedisCache;
+import com.beau.project.system.domain.SysDictData;
 
 /**
  * 字典工具类

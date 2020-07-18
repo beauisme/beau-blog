@@ -1,7 +1,7 @@
-package com.ruoyi.project.system.service;
+package com.beau.project.system.service;
 
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.project.monitor.domain.SysUserOnline;
+import com.beau.framework.security.LoginUser;
+import com.beau.project.monitor.domain.SysUserOnline;
 
 /**
  * 在线用户 服务层

@@ -1,12 +1,12 @@
-package com.ruoyi.common.utils.ip;
+package com.beau.common.utils.ip;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.alibaba.fastjson.JSONObject;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.http.HttpUtils;
-import com.ruoyi.framework.config.RuoYiConfig;
+import com.beau.common.constant.Constants;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.http.HttpUtils;
+import com.beau.framework.config.RuoYiConfig;
 
 /**
  * 获取地址类

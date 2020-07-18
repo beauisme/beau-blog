@@ -1,7 +1,7 @@
-package com.ruoyi.project.system.mapper;
+package com.beau.project.system.mapper;
 
 import java.util.List;
-import com.ruoyi.project.system.domain.SysRole;
+import com.beau.project.system.domain.SysRole;
 
 /**
  * 角色表 数据层

@@ -1,7 +1,7 @@
-package com.ruoyi.project.monitor.service;
+package com.beau.project.monitor.service;
 
 import java.util.List;
-import com.ruoyi.project.monitor.domain.SysLogininfor;
+import com.beau.project.monitor.domain.SysLogininfor;
 
 /**
  * 系统访问日志情况信息 服务层

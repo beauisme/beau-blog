@@ -1,12 +1,12 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.utils.DictUtils;
-import com.ruoyi.project.system.domain.SysDictData;
-import com.ruoyi.project.system.mapper.SysDictDataMapper;
-import com.ruoyi.project.system.service.ISysDictDataService;
+import com.beau.common.utils.DictUtils;
+import com.beau.project.system.domain.SysDictData;
+import com.beau.project.system.mapper.SysDictDataMapper;
+import com.beau.project.system.service.ISysDictDataService;
 
 /**
  * 字典 业务层处理

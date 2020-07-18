@@ -1,4 +1,4 @@
-package com.ruoyi.framework.datasource;
+package com.beau.framework.datasource;
 
 import java.util.Map;
 import javax.sql.DataSource;

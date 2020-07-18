@@ -1,4 +1,4 @@
-package com.ruoyi.project.monitor.controller;
+package com.beau.project.monitor.controller;
 
 import java.util.List;
 import org.quartz.SchedulerException;
@@ -12,17 +12,17 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.exception.job.TaskException;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.job.CronUtils;
-import com.ruoyi.common.utils.poi.ExcelUtil;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.project.monitor.domain.SysJob;
-import com.ruoyi.project.monitor.service.ISysJobService;
+import com.beau.common.exception.job.TaskException;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.job.CronUtils;
+import com.beau.common.utils.poi.ExcelUtil;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.project.monitor.domain.SysJob;
+import com.beau.project.monitor.service.ISysJobService;
 
 /**
  * 调度任务信息操作处理

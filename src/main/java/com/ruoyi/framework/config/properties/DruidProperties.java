@@ -1,4 +1,4 @@
-package com.ruoyi.framework.config.properties;
+package com.beau.framework.config.properties;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

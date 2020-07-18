@@ -1,4 +1,4 @@
-package com.ruoyi.project.tool.gen.controller;
+package com.beau.project.tool.gen.controller;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -17,16 +17,16 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.core.text.Convert;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.project.tool.gen.domain.GenTable;
-import com.ruoyi.project.tool.gen.domain.GenTableColumn;
-import com.ruoyi.project.tool.gen.service.IGenTableColumnService;
-import com.ruoyi.project.tool.gen.service.IGenTableService;
+import com.beau.common.core.text.Convert;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.project.tool.gen.domain.GenTable;
+import com.beau.project.tool.gen.domain.GenTableColumn;
+import com.beau.project.tool.gen.service.IGenTableColumnService;
+import com.beau.project.tool.gen.service.IGenTableService;
 
 /**
  * 代码生成 操作处理

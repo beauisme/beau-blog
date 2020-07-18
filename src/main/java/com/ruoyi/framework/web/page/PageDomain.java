@@ -1,6 +1,6 @@
-package com.ruoyi.framework.web.page;
+package com.beau.framework.web.page;
 
-import com.ruoyi.common.utils.StringUtils;
+import com.beau.common.utils.StringUtils;
 
 /**
  * 分页数据

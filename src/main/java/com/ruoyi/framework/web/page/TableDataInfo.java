@@ -1,4 +1,4 @@
-package com.ruoyi.framework.web.page;
+package com.beau.framework.web.page;
 
 import java.io.Serializable;
 import java.util.List;

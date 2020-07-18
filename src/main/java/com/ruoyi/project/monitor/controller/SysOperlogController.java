@@ -1,4 +1,4 @@
-package com.ruoyi.project.monitor.controller;
+package com.beau.project.monitor.controller;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.utils.poi.ExcelUtil;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.project.monitor.domain.SysOperLog;
-import com.ruoyi.project.monitor.service.ISysOperLogService;
+import com.beau.common.utils.poi.ExcelUtil;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.project.monitor.domain.SysOperLog;
+import com.beau.project.monitor.service.ISysOperLogService;
 
 /**
  * 操作日志记录

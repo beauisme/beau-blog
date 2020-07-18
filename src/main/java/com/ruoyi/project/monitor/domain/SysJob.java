@@ -1,4 +1,4 @@
-package com.ruoyi.project.monitor.domain;
+package com.beau.project.monitor.domain;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -7,12 +7,12 @@ import javax.validation.constraints.Size;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ruoyi.common.constant.ScheduleConstants;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.job.CronUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.Excel;
-import com.ruoyi.framework.aspectj.lang.annotation.Excel.ColumnType;
-import com.ruoyi.framework.web.domain.BaseEntity;
+import com.beau.common.constant.ScheduleConstants;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.job.CronUtils;
+import com.beau.framework.aspectj.lang.annotation.Excel;
+import com.beau.framework.aspectj.lang.annotation.Excel.ColumnType;
+import com.beau.framework.web.domain.BaseEntity;
 
 /**
  * 定时任务调度表 sys_job

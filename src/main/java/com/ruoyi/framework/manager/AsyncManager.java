@@ -1,10 +1,10 @@
-package com.ruoyi.framework.manager;
+package com.beau.framework.manager;
 
 import java.util.TimerTask;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import com.ruoyi.common.utils.Threads;
-import com.ruoyi.common.utils.spring.SpringUtils;
+import com.beau.common.utils.Threads;
+import com.beau.common.utils.spring.SpringUtils;
 
 /**
  * 异步任务管理器

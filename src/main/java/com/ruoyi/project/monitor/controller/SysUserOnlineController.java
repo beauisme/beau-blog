@@ -1,4 +1,4 @@
-package com.ruoyi.project.monitor.controller;
+package com.beau.project.monitor.controller;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.aspectj.lang.annotation.Log;
-import com.ruoyi.framework.aspectj.lang.enums.BusinessType;
-import com.ruoyi.framework.redis.RedisCache;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.framework.web.controller.BaseController;
-import com.ruoyi.framework.web.domain.AjaxResult;
-import com.ruoyi.framework.web.page.TableDataInfo;
-import com.ruoyi.project.monitor.domain.SysUserOnline;
-import com.ruoyi.project.system.service.ISysUserOnlineService;
+import com.beau.common.constant.Constants;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.aspectj.lang.annotation.Log;
+import com.beau.framework.aspectj.lang.enums.BusinessType;
+import com.beau.framework.redis.RedisCache;
+import com.beau.framework.security.LoginUser;
+import com.beau.framework.web.controller.BaseController;
+import com.beau.framework.web.domain.AjaxResult;
+import com.beau.framework.web.page.TableDataInfo;
+import com.beau.project.monitor.domain.SysUserOnline;
+import com.beau.project.system.service.ISysUserOnlineService;
 
 /**
  * 在线用户监控

@@ -1,4 +1,4 @@
-package com.ruoyi.project.common;
+package com.beau.project.common;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.common.utils.file.FileUploadUtils;
-import com.ruoyi.common.utils.file.FileUtils;
-import com.ruoyi.framework.config.RuoYiConfig;
-import com.ruoyi.framework.config.ServerConfig;
-import com.ruoyi.framework.web.domain.AjaxResult;
+import com.beau.common.constant.Constants;
+import com.beau.common.utils.StringUtils;
+import com.beau.common.utils.file.FileUploadUtils;
+import com.beau.common.utils.file.FileUtils;
+import com.beau.framework.config.RuoYiConfig;
+import com.beau.framework.config.ServerConfig;
+import com.beau.framework.web.domain.AjaxResult;
 
 /**
  * 通用请求处理

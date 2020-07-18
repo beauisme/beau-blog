@@ -1,18 +1,18 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import java.util.Collection;
 import java.util.List;
 import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.constant.UserConstants;
-import com.ruoyi.common.core.text.Convert;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.redis.RedisCache;
-import com.ruoyi.project.system.domain.SysConfig;
-import com.ruoyi.project.system.mapper.SysConfigMapper;
-import com.ruoyi.project.system.service.ISysConfigService;
+import com.beau.common.constant.Constants;
+import com.beau.common.constant.UserConstants;
+import com.beau.common.core.text.Convert;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.redis.RedisCache;
+import com.beau.project.system.domain.SysConfig;
+import com.beau.project.system.mapper.SysConfigMapper;
+import com.beau.project.system.service.ISysConfigService;
 
 /**
  * 参数配置 服务层实现

@@ -1,16 +1,16 @@
-package com.ruoyi.framework.web.domain;
+package com.beau.framework.web.domain;
 
 import java.net.UnknownHostException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
-import com.ruoyi.common.utils.Arith;
-import com.ruoyi.common.utils.ip.IpUtils;
-import com.ruoyi.framework.web.domain.server.Cpu;
-import com.ruoyi.framework.web.domain.server.Jvm;
-import com.ruoyi.framework.web.domain.server.Mem;
-import com.ruoyi.framework.web.domain.server.Sys;
-import com.ruoyi.framework.web.domain.server.SysFile;
+import com.beau.common.utils.Arith;
+import com.beau.common.utils.ip.IpUtils;
+import com.beau.framework.web.domain.server.Cpu;
+import com.beau.framework.web.domain.server.Jvm;
+import com.beau.framework.web.domain.server.Mem;
+import com.beau.framework.web.domain.server.Sys;
+import com.beau.framework.web.domain.server.SysFile;
 import oshi.SystemInfo;
 import oshi.hardware.CentralProcessor;
 import oshi.hardware.CentralProcessor.TickType;

@@ -1,10 +1,10 @@
-package com.ruoyi.project.system.service.impl;
+package com.beau.project.system.service.impl;
 
 import org.springframework.stereotype.Service;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.framework.security.LoginUser;
-import com.ruoyi.project.monitor.domain.SysUserOnline;
-import com.ruoyi.project.system.service.ISysUserOnlineService;
+import com.beau.common.utils.StringUtils;
+import com.beau.framework.security.LoginUser;
+import com.beau.project.monitor.domain.SysUserOnline;
+import com.beau.project.system.service.ISysUserOnlineService;
 
 /**
  * 在线用户 服务层处理

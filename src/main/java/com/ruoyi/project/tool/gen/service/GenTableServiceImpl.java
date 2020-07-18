@@ -1,4 +1,4 @@
-package com.ruoyi.project.tool.gen.service;
+package com.beau.project.tool.gen.service;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -19,18 +19,18 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.ruoyi.common.constant.Constants;
-import com.ruoyi.common.constant.GenConstants;
-import com.ruoyi.common.exception.CustomException;
-import com.ruoyi.common.utils.SecurityUtils;
-import com.ruoyi.common.utils.StringUtils;
-import com.ruoyi.project.tool.gen.domain.GenTable;
-import com.ruoyi.project.tool.gen.domain.GenTableColumn;
-import com.ruoyi.project.tool.gen.mapper.GenTableColumnMapper;
-import com.ruoyi.project.tool.gen.mapper.GenTableMapper;
-import com.ruoyi.project.tool.gen.util.GenUtils;
-import com.ruoyi.project.tool.gen.util.VelocityInitializer;
-import com.ruoyi.project.tool.gen.util.VelocityUtils;
+import com.beau.common.constant.Constants;
+import com.beau.common.constant.GenConstants;
+import com.beau.common.exception.CustomException;
+import com.beau.common.utils.SecurityUtils;
+import com.beau.common.utils.StringUtils;
+import com.beau.project.tool.gen.domain.GenTable;
+import com.beau.project.tool.gen.domain.GenTableColumn;
+import com.beau.project.tool.gen.mapper.GenTableColumnMapper;
+import com.beau.project.tool.gen.mapper.GenTableMapper;
+import com.beau.project.tool.gen.util.GenUtils;
+import com.beau.project.tool.gen.util.VelocityInitializer;
+import com.beau.project.tool.gen.util.VelocityUtils;
 
 /**
  * 业务 服务层实现

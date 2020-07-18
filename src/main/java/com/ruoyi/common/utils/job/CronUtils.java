@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils.job;
+package com.beau.common.utils.job;
 
 import java.text.ParseException;
 import java.util.Date;
